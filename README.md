@@ -6,7 +6,7 @@
 
 This is a [python extension](https://albertlauncher.github.io/docs/extensions/python/) I wrote for [Albert launcher](https://albertlauncher.github.io/).
 
-It has the goal to match KDE services located in "/usr/share/kservices5/" like KRunner does.
+It has the goal to provide completion for KDE Services located in "/usr/share/kservices5/" like KRunner does.
 
 ## Installation
 
