@@ -1,5 +1,7 @@
 # KDE Services extension for Albert Launcher
 
+![preview](preview.gif)
+
 ## Description
 
 This is a [python extension](https://albertlauncher.github.io/docs/extensions/python/) I wrote for [Albert launcher](https://albertlauncher.github.io/).
