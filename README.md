@@ -13,6 +13,8 @@ It has the goal to match KDE services located in "/usr/share/kservices5/" like K
 To install the extensions, run the following commands:
 
 ```bash
-mkdir "~/.local/share/albert/org.albert.extension.python/modules/kde_services"
-git clone https://github.com/ManuelArto/KDEServices-AlbertExtension "~/.local/share/albert/org.albert.extension.python/modules/kde_services"
+mkdir ~/.local/share/albert/org.albert.extension.python/modules/kde_services
+git clone https://github.com/ManuelArto/KDEServices-AlbertExtension ~/.local/share/albert/org.albert.extension.python/modules/kde_services
 ```
+
+Then activate it from the Albert Menu settings
