@@ -16,7 +16,7 @@ def get_services(query_string):
 	files = [file for file in os.listdir(KDE_SERVICES_PATH) if ".desktop" in file]
 	for file in files:
 		has_exec = False
-		with open(KDE_SERVICES_PATH + file, 'r') as f:
+		with open(KDE_SERVICES_PATH + file, 'r', encoding="utf-8") as f:
 			for line in f.readlines():
 				if "Exec=" in line:
 					has_exec = True
@@ -26,7 +26,7 @@ def get_services(query_string):
 
 def get_service_data(service):
 	data = {"Exec": "", "Icon": "", "Name": "", "Comment": "", "X-KDE-Keywords": ""}
-	with open(KDE_SERVICES_PATH + service) as file:
+	with open(KDE_SERVICES_PATH + service, "r", encoding="utf-8") as file:
 		for line in file.readlines():
 			for key in data.keys():
 				if key+"=" in line:
